@@ -32,7 +32,7 @@ spec:
             valueFrom:
              secretKeyRef:
                key: test
-               name: db-secret
+               name: db-secret2
         readinessProbe:
           httpGet: 
             path: /
